@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+body{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid black;
+    background-color: rgb(50, 50, 167);
+    color: white;
+}
+
+.button-all, .button-complete, .button-incomplete{
+    background-color: white;
+    width: 90px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    border: 2px solid rgb(50, 50, 167);
+}
+
+.button-all:hover, .button-complete:hover, .button-incomplete:hover{
+    background-color: rgb(50, 50, 167);
+    color: white;
+}
+
+.todo-form{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.todo-form button{
+    height: 35px;
+    border: none;
+    background-color: rgb(50, 50, 167);
+    color: white;
+    width: 80px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.todo-form button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.todo-form input{
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 3px;
+    width: 100%;
+    margin-right: 20px;
+}
+
+.main-item-container{
+    box-shadow: 0px 0px 4px 4px rgb(212, 212, 212);
+    border: 2px solid rgb(212, 212, 212);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    border-radius: 5px;
+    width: 95%;
+}
+
+.item-container{
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    word-wrap: break-word;
+    align-items: center;
+}
+
+.item-container p{
+    margin: 0;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 1.5em;
+}
+
+.ischecked{
+    margin-right: 15px;
+    height: 20px;
+    width: 20px;
+}
